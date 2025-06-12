@@ -1,0 +1,44 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.ttf;")
+}
+
+* {
+  box-sizing: border-box;
+  color: #cacaca;
+  background-color: #08020d;
+  line-height: 1.5;
+}
+
+@mixin heading {
+    h1 {
+        font-size: 60px;
+        line-height: 90px;
+        font-weight: bold;
+        text-transform:uppercase;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 57px;
+        font-weight: bold;
+        text-transform:uppercase;    
+    }
+
+  @media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: bold;
+        text-transform:uppercase;
+    }
+
+    h2 {
+        font-size: 18x;
+        line-height: 27px;
+        font-weight: bold;
+        text-transform:uppercase;    
+    }
+  }
+}
