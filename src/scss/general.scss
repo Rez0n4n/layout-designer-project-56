@@ -25,8 +25,14 @@ h2 {
 }
 
 header {
+    height: 750px;
     display: flex;
     justify-content: center;
+}
+@media (max-width: 768px) {
+    header {
+        height: 851px;
+    }
 }
 section {
     width: 1200px;

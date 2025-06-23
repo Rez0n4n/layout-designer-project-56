@@ -36,10 +36,16 @@ h2 {
   }
 }
 header {
+  height: 750px;
   display: flex;
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  header {
+    height: 851px;
+  }
+}
 section {
   width: 1200px;
 }
@@ -51,7 +57,7 @@ section {
 }
 .grid-header-6 {
   display: grid;
-  grid-template-areas: "logo header header header header search";
+  grid-template-areas: "logo header header header header search" "banner  banner  banner   banner   banner   banner";
 }
 
 .main-header {
@@ -96,6 +102,12 @@ section {
   padding-bottom: 5px;
   padding-top: 5px;
   text-transform: uppercase;
+}
+
+.main-bg {
+  background-image: url("/src/images/banner.png");
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
