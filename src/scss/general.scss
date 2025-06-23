@@ -1,16 +1,3 @@
-@font-face {
-  font-weight: 400;
-  font-family: "Roboto";
-  src: url("../fonts/Roboto.ttf;")
-}
-
-* {
-  box-sizing: border-box;
-  color: #cacaca;
-  background-color: #08020d;
-  line-height: 1.5;
-}
-
 h1 {
   font-size: 60px;
   line-height: 90px;
@@ -35,4 +22,17 @@ h2 {
     font-size: 18px;
     line-height: 27px;
   }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 1200px;
+}
+@media (max-width: 1239px) {
+    section {
+       width: 100%;
+    }
 }

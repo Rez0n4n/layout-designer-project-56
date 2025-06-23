@@ -1,0 +1,13 @@
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("/src/fonts/Roboto.ttf")
+}
+
+* {
+  box-sizing: border-box;
+  color: #cacaca;
+  background-color: #08020d;
+  line-height: 1.5;
+  font-family: Roboto;
+}
