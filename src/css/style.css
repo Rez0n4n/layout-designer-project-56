@@ -67,9 +67,14 @@ section {
     padding-right: 20px;
   }
 }
+main {
+  display: flex;
+  justify-content: center;
+}
+
 .grid-header-6 {
   display: grid;
-  grid-template-areas: "logo header header header header search" "banner  banner  banner   banner   banner   banner";
+  grid-template-areas: "logo header header header header search";
 }
 @media (max-width: 768px) {
   .grid-header-6 {
@@ -98,6 +103,7 @@ section {
 }
 @media (max-width: 768px) {
   .main-menu {
+    margin-bottom: 1em;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -114,6 +120,11 @@ section {
   margin-right: 16px;
   max-width: 24px;
   max-height: 24px;
+}
+@media (max-width: 768px) {
+  .logo {
+    margin-bottom: 1em;
+  }
 }
 
 .search {
@@ -136,6 +147,10 @@ section {
   background-image: url("/src/images/banner.png");
   background-position: center;
   background-size: cover;
+}
+
+.bg-free {
+  background-color: transparent;
 }
 
 .page-description {
@@ -198,6 +213,91 @@ section {
   .page-description button {
     width: 100%;
   }
+}
+
+.page-pricing {
+  padding-top: 100px;
+}
+.page-pricing h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #FFFFFF;
+}
+.page-pricing .price-cnt {
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.page-pricing .price-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+}
+@media (max-width: 768px) {
+  .page-pricing .price-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.page-pricing .price-grid .price-item {
+  text-align: center;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+  color: #FFFFFF;
+  line-height: 1em;
+  margin-bottom: 64px;
+}
+.page-pricing .price-grid .price-item h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 1em;
+  padding-bottom: 200px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.page-pricing .price-grid .price-item .card-price {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.page-pricing .price-grid .price-item .card-price .price {
+  font-size: 64px;
+  padding-right: 1rem;
+}
+.page-pricing .price-grid .price-item .card-price .currency {
+  font-size: 32px;
+  line-height: 250%;
+}
+.page-pricing .price-grid .price-item .btn {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 64px;
+}
+.page-pricing .price-grid .price-item .price-footer {
+  font-size: 12.8px;
+  margin-bottom: 64px;
+}
+.page-pricing .price-grid .bg-1 {
+  background-image: url("/src/images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+.page-pricing .price-grid .bg-2 {
+  background-image: url("/src/images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+.page-pricing .price-grid .bg-3 {
+  background-image: url("/src/images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

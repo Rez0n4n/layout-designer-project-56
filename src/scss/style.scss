@@ -1,75 +1,5 @@
-
-.grid-header-6 {
-display: grid;
-grid-template-areas: "logo header header header header search"
-                  "banner  banner  banner   banner   banner   banner";
-//                       "subscription-1 subscription-1 subscription-2 subscription-2 subscription-3 subscription-3"
-//                       "news-1 news-1 news-1 news-2 news-2 news-2"
-//                       "news-2 news-2 news-2 news-1 news-1 news-1"
-//                       "mobile-app mobile-app mobile-app mobile-app mobile-app mobile-app"
-//                       "footer footer footer footer footer footer";
-  @media (max-width: 768px){
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.main-header {
-  position: absolute;
+.bg-free {
   background-color: transparent;
-  transform: translateY(24px);
-}
-
-.main-menu {
-  display: flex;
-  grid-area: header;
-  align-items: center;
-  flex-wrap: wrap;
-  & a {
-    margin-right: 24px;
-    font-size: 11px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
-.logo {
-  display: flex;
-  grid-area: logo; 
-  align-items: center;
-  font-size: 11px;
-  text-transform: uppercase;
-  & img {
-      margin-right: 16px;
-      max-width: 24px;
-      max-height: 24px;
-  }
-}
-
-.search {
-  display: flex;
-  grid-area: search;
-  align-items: center;
-  & input {
-    width: 100%;
-    border-radius: 50px;
-    border: 0px;
-    background-color: #3C3B3D;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    text-transform: uppercase;
-  }
-}
-
-.main-bg {
-  background-image: url("/src/images/banner.png");
-  background-position: center;
-  background-size: cover;
 }
 
 .page-description {
@@ -131,5 +61,97 @@ grid-template-areas: "logo header header header header search"
       & button{
         width: 100%;
       }
+  }
+}
+
+.page-pricing {
+  padding-top: 100px;
+  & h2 {
+      text-align: center;
+      margin-bottom: 1em;
+      color: #FFFFFF;
+  }
+  & .price-cnt {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+  & .price-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        }
+        
+    & .price-item {
+      text-align: center;
+      padding: 0 1.5rem;
+      border-radius: 1rem;
+      color: #FFFFFF;
+      line-height: 1em;
+      margin-bottom: 64px;
+
+      & h3 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 1em;
+        padding-bottom: 200px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+      }
+
+      & .card-price {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-bottom: 40px;
+      
+        & .price {
+          font-size: 64px;
+          padding-right: 1rem;
+
+        }
+        & .currency {
+          font-size: 32px;
+          line-height: 250%;
+        }
+      }
+      & .btn {
+        width: 100%;
+        padding: 20px 30px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 64px;
+      }
+      & .price-footer {
+        font-size: 12.8px;
+        margin-bottom: 64px;
+      }
+    }
+    & .bg-1 {
+      background-image: url("/src/images/subscribe_1.png");
+      background-position: center;
+      background-size: cover;
+    }
+
+    & .bg-2 {
+      background-image: url("/src/images/subscribe_2.png");
+      background-position: center;
+      background-size: cover;      
+    }  
+
+    & .bg-3 {
+      background-image: url("/src/images/subscribe_3.png");
+      background-position: center;
+      background-size: cover;      
+    }
   }
 }
