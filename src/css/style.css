@@ -69,7 +69,8 @@ section {
 }
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .grid-header-6 {
@@ -298,6 +299,48 @@ main {
   background-image: url("/src/images/subscribe_3.png");
   background-position: center;
   background-size: cover;
+}
+
+.page-news {
+  padding-top: 100px;
+}
+.page-news .news-block {
+  display: flex;
+  flex-direction: column;
+}
+.page-news .news-block .news-item {
+  display: flex;
+  margin-bottom: 65px;
+}
+@media (max-width: 768px) {
+  .page-news .news-block .news-item {
+    flex-direction: column;
+  }
+}
+.page-news .news-block .news-item .img-left {
+  margin-left: 50px;
+}
+@media (max-width: 768px) {
+  .page-news .news-block .news-item .img-left {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+}
+.page-news .news-block .news-item .img-right {
+  margin-right: 50px;
+}
+@media (max-width: 768px) {
+  .page-news .news-block .news-item .img-right {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}
+.page-news .news-block .news-item .news-item-info h3 {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+.page-news .news-block .news-item .news-item-info p {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

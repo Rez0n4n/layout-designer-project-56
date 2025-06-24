@@ -86,7 +86,7 @@
         display: flex;
         flex-direction: column;
         }
-        
+
     & .price-item {
       text-align: center;
       padding: 0 1.5rem;
@@ -152,6 +152,54 @@
       background-image: url("/src/images/subscribe_3.png");
       background-position: center;
       background-size: cover;      
+    }
+  }
+}
+
+.page-news {
+  padding-top: 100px;
+
+  & .news-block{
+    display: flex;
+    flex-direction: column;
+
+    & .news-item {
+      display: flex;
+      margin-bottom: 65px;
+
+      @media (max-width: 768px) {
+          flex-direction: column;
+        } 
+
+      & .img-left {
+        margin-left: 50px;
+
+        @media (max-width: 768px) {
+          margin-left: 0;
+          margin-bottom: 50px;
+        }   
+      }
+
+      & .img-right {
+        margin-right: 50px;
+
+        @media (max-width: 768px) {
+          margin-right: 0;
+          margin-bottom: 50px;
+        }        
+      }
+
+      & .news-item-info {
+
+        & h3 {
+          font-size: 30px;
+          margin-bottom: 1em;
+        }
+        & p {
+          font-size: 16px;
+        }
+      }
+
     }
   }
 }
