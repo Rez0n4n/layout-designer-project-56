@@ -371,7 +371,9 @@ main {
   margin-bottom: 48px;
 }
 .page-news .news-block .news-item .news-footer .news-author img {
-  padding-right: 1em;
+  margin-right: 1em;
+  width: 19px;
+  height: 19px;
 }
 .page-news .news-block .news-item .news-footer .news-author a {
   padding-right: 1em;
@@ -390,6 +392,46 @@ main {
 }
 .page-news .news-block .news-item-last {
   margin-bottom: 0px;
+}
+
+.page-app {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-app h2 {
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+.page-app .page-app-block {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .page-app .page-app-block {
+    flex-direction: column-reverse;
+  }
+}
+.page-app .page-app-block .page-app-content {
+  margin-right: 144px;
+}
+@media (max-width: 768px) {
+  .page-app .page-app-block .page-app-content {
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+}
+.page-app .page-app-block .page-app-content .page-app-text {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.page-app .page-app-block .page-app-content .btn-app {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 40px;
+  border-radius: 32px;
+  font-size: 12.8px;
+  background-color: #95390C;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
