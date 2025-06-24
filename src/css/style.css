@@ -388,5 +388,8 @@ main {
   border: 1px solid #FFFFFF;
   border-radius: 5px;
 }
+.page-news .news-block .news-item-last {
+  margin-bottom: 0px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -179,7 +179,7 @@
           order: 1;
         }
         } 
-
+      
     & .news-item {
       display: flex;
       margin-bottom: 65px;
@@ -256,6 +256,9 @@
           border-radius: 5px;
         }
       }
+    }
+    & .news-item-last {
+      margin-bottom: 0px;
     }
   }
 }
