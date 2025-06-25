@@ -46,16 +46,10 @@ h2 {
   }
 }
 header {
-  height: 750px;
   display: flex;
   justify-content: center;
 }
 
-@media (max-width: 768px) {
-  header {
-    height: 851px;
-  }
-}
 section {
   width: 1200px;
 }
@@ -150,12 +144,19 @@ main {
   background-size: cover;
 }
 
+.artist-bg {
+  background-image: url("/src/images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .bg-free {
   background-color: transparent;
 }
 
 .page-description {
-  margin: 200px 0;
+  margin-top: 200px;
+  margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,6 +202,7 @@ main {
   width: 100%;
   max-width: 570px;
   padding: 20px 30px;
+  border: 0;
   border-radius: 5px;
   background-color: #34C176;
   text-transform: uppercase;
@@ -432,6 +434,47 @@ main {
   font-size: 12.8px;
   background-color: #95390C;
   color: #FFFFFF;
+}
+
+.page-artist-description {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.page-artist-description .banner-artist-text h1 {
+  margin-bottom: 1rem;
+}
+.page-artist-description .banner-artist-text p {
+  margin-bottom: 2em;
+}
+.page-artist-description .banner-art-btn-block {
+  display: flex;
+  gap: 1.5rem;
+}
+@media (max-width: 768px) {
+  .page-artist-description .banner-art-btn-block {
+    flex-direction: column;
+  }
+}
+.page-artist-description .banner-art-btn-block .btn-purple {
+  background-color: Purple;
+}
+.page-artist-description .banner-art-btn-block .btn-brown {
+  background-color: #95390C;
+}
+.page-artist-description .banner-art-btn-block .banner-art-btn {
+  color: #FFFFFF;
+  display: flex;
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  border: 0;
+  border-radius: 5px;
+}
+.page-artist-description .banner-art-btn-block .banner-art-btn img {
+  filter: invert(1);
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
 }
 
 .bg-gradient {

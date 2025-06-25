@@ -1,12 +1,7 @@
 .grid-header-6 {
-display: grid;
-grid-template-areas: "logo header header header header search";
-//                 "banner  banner  banner   banner   banner   banner";
-//                       "subscription-1 subscription-1 subscription-2 subscription-2 subscription-3 subscription-3"
-//                       "news-1 news-1 news-1 news-2 news-2 news-2"
-//                       "news-2 news-2 news-2 news-1 news-1 news-1"
-//                       "mobile-app mobile-app mobile-app mobile-app mobile-app mobile-app"
-//                       "footer footer footer footer footer footer";
+    display: grid;
+    grid-template-areas: "logo header header header header search";
+
   @media (max-width: 768px){
     display: flex;
     flex-direction: column;
@@ -71,6 +66,12 @@ grid-template-areas: "logo header header header header search";
 
 .main-bg {
   background-image: url("/src/images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-bg {
+  background-image: url("/src/images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
