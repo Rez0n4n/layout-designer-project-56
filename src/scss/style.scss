@@ -312,13 +312,16 @@
 .page-artist-description {
   margin-top: 200px;
   margin-bottom: 200px;
+  
   & .banner-artist-text {
 
     & h1 {
+      color: #FFFFFF;
       margin-bottom: 1rem;
     }
 
     & p {
+      color: #FFFFFF;
       margin-bottom: 2em;
     }
   }
