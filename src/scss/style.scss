@@ -312,7 +312,7 @@
 .page-artist-description {
   margin-top: 200px;
   margin-bottom: 200px;
-  
+
   & .banner-artist-text {
 
     & h1 {
@@ -354,6 +354,58 @@
       margin-right: 16px;
       width: 20px;
       height: 20px;
+      }
+    }
+  }
+}
+
+.page-popular-track {
+  padding-top: 100px;
+
+  & h2 {
+    margin-bottom: 48px;
+    color: #FFFFFF;
+  }
+  & .popular-track-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
+
+    @media (max-width: 768px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: none;
+          }
+
+    & img {
+      width: 55px;
+      height: 55px;
+    }
+
+    & h3 {
+      font-size: 12.8px;
+      line-height: 19.2px;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+
+    & .popular-track-item {
+      display: flex;
+      align-items: center;
+
+      & p {
+        color: #E0E0E0;
+      }
+
+      & .popular-track-time {
+       display: flex;
+       color: #E0E0E0;
+      }
+
+      & .popular-track-info{
+        width: 100%;
+        margin-left: 15px;
       }
     }
   }

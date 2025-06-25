@@ -479,6 +479,52 @@ main {
   height: 20px;
 }
 
+.page-popular-track {
+  padding-top: 100px;
+}
+.page-popular-track h2 {
+  margin-bottom: 48px;
+  color: #FFFFFF;
+}
+.page-popular-track .popular-track-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+}
+@media (max-width: 768px) {
+  .page-popular-track .popular-track-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: none;
+  }
+}
+.page-popular-track .popular-track-grid img {
+  width: 55px;
+  height: 55px;
+}
+.page-popular-track .popular-track-grid h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.page-popular-track .popular-track-grid .popular-track-item {
+  display: flex;
+  align-items: center;
+}
+.page-popular-track .popular-track-grid .popular-track-item p {
+  color: #E0E0E0;
+}
+.page-popular-track .popular-track-grid .popular-track-item .popular-track-time {
+  display: flex;
+  color: #E0E0E0;
+}
+.page-popular-track .popular-track-grid .popular-track-item .popular-track-info {
+  width: 100%;
+  margin-left: 15px;
+}
+
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
