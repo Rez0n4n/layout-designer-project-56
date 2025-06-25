@@ -525,6 +525,45 @@ main {
   margin-left: 15px;
 }
 
+.page-discography {
+  padding-top: 100px;
+}
+.page-discography h2 {
+  margin-bottom: 48px;
+  color: #FFFFFF;
+}
+.page-discography .discography-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+}
+@media (max-width: 768px) {
+  .page-discography .discography-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.page-discography .discography-grid img {
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 768px) {
+  .page-discography .discography-grid img {
+    width: 137px;
+    height: 137px;
+  }
+}
+.page-discography .discography-grid h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.page-discography .discography-grid p {
+  color: #E0E0E0;
+}
+
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }

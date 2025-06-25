@@ -410,3 +410,46 @@
     }
   }
 }
+
+.page-discography {
+  padding-top: 100px;
+
+  & h2 {
+    margin-bottom: 48px;
+    color: #FFFFFF;
+  }
+
+  & .discography-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 25px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+          }
+
+
+    & img {
+      width: 250px;
+      height: 250px;
+
+        @media (max-width: 768px) {
+          width: 137px;
+          height: 137px;
+        }
+    }
+
+    & h3 {
+      color: #FFFFFF;
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    & p {
+      color: #E0E0E0;
+    }
+  }
+}
