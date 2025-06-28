@@ -98,9 +98,9 @@
       margin-bottom: 64px;
 
       & h3 {
-        font-size: 24px;
-        font-weight: 400;
-        margin-top: 1em;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 1.5em;
         padding-bottom: 200px;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -115,11 +115,11 @@
         & .price {
           font-size: 64px;
           padding-right: 1rem;
+          line-height: 1;
 
         }
         & .currency {
           font-size: 32px;
-          line-height: 250%;
         }
       }
       & .btn {
@@ -235,6 +235,12 @@
         & .news-author {
           display: flex;
           margin-bottom: 48px;
+          align-items: center;
+          font-size: 12px;
+          
+          @media (max-width: 768px) {
+            font-size: 12.8px;
+        }
 
           & img {
             margin-right: 1em;

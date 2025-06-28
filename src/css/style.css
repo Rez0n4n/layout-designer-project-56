@@ -13,6 +13,8 @@
   line-height: 1.5;
   color: #cacaca;
   font-family: Roboto;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -249,9 +251,9 @@ main {
   margin-bottom: 64px;
 }
 .page-pricing .price-grid .price-item h3 {
-  font-size: 24px;
-  font-weight: 400;
-  margin-top: 1em;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 1.5em;
   padding-bottom: 200px;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -265,10 +267,10 @@ main {
 .page-pricing .price-grid .price-item .card-price .price {
   font-size: 64px;
   padding-right: 1rem;
+  line-height: 1;
 }
 .page-pricing .price-grid .price-item .card-price .currency {
   font-size: 32px;
-  line-height: 250%;
 }
 .page-pricing .price-grid .price-item .btn {
   width: 100%;
@@ -369,6 +371,13 @@ main {
 .page-news .news-block .news-item .news-footer .news-author {
   display: flex;
   margin-bottom: 48px;
+  align-items: center;
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  .page-news .news-block .news-item .news-footer .news-author {
+    font-size: 12.8px;
+  }
 }
 .page-news .news-block .news-item .news-footer .news-author img {
   margin-right: 1em;
