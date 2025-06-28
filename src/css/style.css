@@ -1,12 +1,12 @@
 @font-face {
   font-weight: 400;
   font-family: Roboto;
-  src: url("../src/fonts/Roboto.ttf");
+  src: url("fonts/Roboto.ttf");
 }
 @font-face {
   font-weight: 700;
   font-family: Roboto;
-  src: url("../src/fonts/Roboto.ttf");
+  src: url("fonts/Roboto.ttf");
 }
 * {
   box-sizing: border-box;
@@ -139,13 +139,13 @@ main {
 }
 
 .main-bg {
-  background-image: url("../src/images/banner.png");
+  background-image: url("images/banner.png");
   background-position: center;
   background-size: cover;
 }
 
 .artist-bg {
-  background-image: url("../src/images/Morten Harket.png");
+  background-image: url("images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
