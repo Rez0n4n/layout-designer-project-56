@@ -164,12 +164,12 @@
 
 .page-news {
   padding-top: 100px;
+    width: 100%;
 
   & h2 {
     color: #FFFFFF;
     text-align: center;
     margin-bottom: 48px;
-
   }
 
   & .news-block{
@@ -280,6 +280,7 @@
 .page-app {
   padding-top: 100px;
   padding-bottom: 100px;
+  width: 100%;
 
   & h2 {
     text-align: center;

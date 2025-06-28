@@ -50,15 +50,10 @@ header {
   justify-content: center;
 }
 
-section {
+.container {
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-@media (min-width: 1240px) {
-  section {
-    max-width: 1200px;
-  }
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 main {
@@ -310,6 +305,7 @@ main {
 
 .page-news {
   padding-top: 100px;
+  width: 100%;
 }
 .page-news h2 {
   color: #FFFFFF;
@@ -411,6 +407,7 @@ main {
 .page-app {
   padding-top: 100px;
   padding-bottom: 100px;
+  width: 100%;
 }
 .page-app h2 {
   text-align: center;
@@ -629,8 +626,7 @@ main {
 }
 @media (max-width: 768px) {
   .footer-grid {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .footer-grid h2 {

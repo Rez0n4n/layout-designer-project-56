@@ -9,8 +9,7 @@
     grid-template-columns: repeat(4, 1fr);
 
     @media (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     & h2 {
