@@ -29,15 +29,12 @@ header {
     justify-content: center;
 }
 section {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     padding-left: 20px;
     padding-right: 20px;
 }
-@media (max-width: 1439px) {
-    section {
-       width: 100%;
-    }
-}
+
 
 main {
     display: flex;
