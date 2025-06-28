@@ -139,13 +139,14 @@ main {
 }
 
 .main-bg {
-  background-image: url("images/banner.png");
+  width: 100%;
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
 
 .artist-bg {
-  background-image: url("images/Morten Harket.png");
+  background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
