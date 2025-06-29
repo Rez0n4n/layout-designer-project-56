@@ -289,6 +289,7 @@ main {
 @media (max-width: 768px) {
   .page-pricing .price-grid .price-item h3 {
     font-size: 16px;
+    padding-bottom: 203px;
   }
 }
 .page-pricing .price-grid .price-item .card-price {
