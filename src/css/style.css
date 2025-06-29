@@ -46,7 +46,6 @@ h2 {
   }
 }
 section {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -248,6 +247,7 @@ main {
 
 .page-pricing {
   padding-top: 100px;
+  flex-direction: column;
 }
 .page-pricing h2 {
   text-align: center;
