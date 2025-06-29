@@ -65,7 +65,11 @@ main {
 .container {
   width: 100%;
   max-width: 1200px;
-  padding: 0 20px;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
 }
 
 .grid-header-6 {
