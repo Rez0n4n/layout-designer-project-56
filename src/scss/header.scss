@@ -44,13 +44,14 @@
   align-items: center;
   font-size: 11px;
   text-transform: uppercase;
+  color: #FFFFFF;
   & img {
       margin-right: 16px;
       max-width: 24px;
       max-height: 24px;
   }
   @media (max-width: 768px) {
-    margin-bottom: 17px;
+    margin-bottom: 1em;
   }
 }
 
