@@ -48,9 +48,8 @@ main {
 
 .container {
     width: 100%;
-    max-width: 1200px;
-    //padding: 0 40px;
-    @media (max-width: 768px) {
-        padding: 0 20px;
-     }
+    padding: 0 20px;
+    @media (min-width: 1240px) {
+        max-width: 1200px;
+    }
 }

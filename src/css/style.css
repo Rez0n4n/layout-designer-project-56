@@ -63,17 +63,18 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  padding: 0 20px;
 }
-@media (max-width: 768px) {
+@media (min-width: 1240px) {
   .container {
-    padding: 0 20px;
+    max-width: 1200px;
   }
 }
 
 .grid-header-6 {
   display: grid;
   grid-template-areas: "logo header header header header search";
+  justify-content: normal;
 }
 @media (max-width: 768px) {
   .grid-header-6 {
@@ -688,7 +689,6 @@ main {
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .footer-2 {

@@ -1,6 +1,7 @@
 .grid-header-6 {
     display: grid;
     grid-template-areas: "logo header header header header search";
+    justify-content: normal;
 
   @media (max-width: 768px){
     display: flex;
