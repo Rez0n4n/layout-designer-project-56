@@ -118,7 +118,6 @@
 
         @media (max-width: 768px) {
           font-size: 16px;
-          padding-bottom: 203px;
         }
       }
 
@@ -156,19 +155,19 @@
     }
     & .bg-1 {
       background-image: url("../images/subscribe_1.png");
-      background-position: center;
+      //background-position: center;
       background-size: cover;
     }
 
     & .bg-2 {
       background-image: url("../images/subscribe_2.png");
-      background-position: center;
+      //background-position: center;
       background-size: cover;      
     }  
 
     & .bg-3 {
       background-image: url("../images/subscribe_3.png");
-      background-position: center;
+      //background-position: center;
       background-size: cover;      
     }
   }
