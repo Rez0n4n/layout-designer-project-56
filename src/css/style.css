@@ -73,6 +73,11 @@ main {
   background-color: transparent;
   transform: translateY(24px);
 }
+@media (max-width: 768px) {
+  .main-header {
+    transform: translateY(25px);
+  }
+}
 
 .main-menu {
   display: flex;
@@ -88,7 +93,7 @@ main {
 }
 @media (max-width: 768px) {
   .main-menu {
-    margin-bottom: 1em;
+    margin-bottom: 18px;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -108,7 +113,7 @@ main {
 }
 @media (max-width: 768px) {
   .logo {
-    margin-bottom: 1.5em;
+    margin-bottom: 17px;
   }
 }
 
@@ -162,7 +167,7 @@ main {
 }
 @media (max-width: 768px) {
   .page-description .banner-text {
-    margin-top: 50px;
+    margin-top: 78px;
   }
 }
 .page-description .banner-text p {
@@ -175,7 +180,7 @@ main {
 }
 @media (max-width: 768px) {
   .page-description .banner-text h2 {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
   }
 }
 .page-description .banner-text h1 {
