@@ -10,6 +10,11 @@
   align-items: center;
     & .banner-text {
       text-align: center;
+
+      @media (max-width: 768px) {
+          margin-top: 50px;
+      }
+
       & p {
         color: #FFFFFF;
         margin-bottom: 17px;
@@ -17,6 +22,10 @@
       & h2 {
         color: #FFFFFF;
         margin-bottom: 31px;
+
+        @media (max-width: 768px) {
+          margin-bottom: 1em;
+        }
       }
       & h1 {
         color: #FFFFFF;

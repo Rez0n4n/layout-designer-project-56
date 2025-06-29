@@ -45,21 +45,16 @@ h2 {
     line-height: 27px;
   }
 }
-section {
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-@media (min-width: 1240px) {
-  section {
-    max-width: 1200px;
-  }
-}
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 .grid-header-6 {
@@ -113,7 +108,7 @@ main {
 }
 @media (max-width: 768px) {
   .logo {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -165,6 +160,11 @@ main {
 .page-description .banner-text {
   text-align: center;
 }
+@media (max-width: 768px) {
+  .page-description .banner-text {
+    margin-top: 50px;
+  }
+}
 .page-description .banner-text p {
   color: #FFFFFF;
   margin-bottom: 17px;
@@ -172,6 +172,11 @@ main {
 .page-description .banner-text h2 {
   color: #FFFFFF;
   margin-bottom: 31px;
+}
+@media (max-width: 768px) {
+  .page-description .banner-text h2 {
+    margin-bottom: 1em;
+  }
 }
 .page-description .banner-text h1 {
   color: #FFFFFF;
