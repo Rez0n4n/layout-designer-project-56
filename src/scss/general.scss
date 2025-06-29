@@ -24,7 +24,7 @@ h2 {
   }
 }
 
-///section {
+//section {
     //width: 100%;
     //padding-left: 20px;
     //padding-right: 20px;
@@ -38,6 +38,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (max-width: 768px) {
+        align-items: normal;
+    }
 }
 
 .container {
