@@ -67,7 +67,7 @@ main {
 }
 @media (min-width: 1240px) {
   .container {
-    width: 1200px;
+    max-width: 1240px;
   }
 }
 
