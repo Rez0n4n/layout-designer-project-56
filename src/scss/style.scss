@@ -330,11 +330,17 @@
 
     @media (max-width: 768px) {
       margin-right: 0;
+      
     }
 
     & .page-app-text {
       margin-top: 1em;
       margin-bottom: 1em;
+      & .mg-btm-24-m { 
+        @media (max-width: 768px) {
+          margin-bottom: 24px;
+        }
+      }
     }
 
     & .btn-app {
