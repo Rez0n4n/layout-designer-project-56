@@ -335,10 +335,10 @@
 
     & .page-app-text {
       margin-top: 16px;
-      margin-bottom: 24px;
+      letter-spacing: -0.5px;
 
         @media (max-width: 768px) {
-          font-size: 15.5px;
+          font-size: 16px;
         }
 
       & .mg-btm-24-m { 
