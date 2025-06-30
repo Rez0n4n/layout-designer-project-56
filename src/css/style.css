@@ -477,16 +477,16 @@ main {
   }
 }
 .page-app .page-app-block .page-app-content .page-app-text {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 16px;
+  margin-bottom: 15px;
 }
 @media (max-width: 768px) {
   .page-app .page-app-block .page-app-content .page-app-text {
-    font-size: 15.4px;
+    font-size: 15.5px;
   }
 }
 .page-app .page-app-block .page-app-content .page-app-text .mg-btm-24-m {
-  margin-bottom: 1em;
+  margin-bottom: 16px;
 }
 .page-app .page-app-block .page-app-content .btn-app {
   display: inline-block;
