@@ -483,11 +483,6 @@ main {
 .page-app .page-app-block .page-app-content .page-app-text .mg-btm-24-m {
   margin-bottom: 1rem;
 }
-@media (max-width: 768px) {
-  .page-app .page-app-block .page-app-content .page-app-text .mg-btm-24-m {
-    margin-bottom: 1rem;
-  }
-}
 .page-app .page-app-block .page-app-content .btn-app {
   display: inline-block;
   text-decoration: none;
