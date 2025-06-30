@@ -309,7 +309,6 @@
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 48px;
-    font-stretch: 85%;
   }
 
   & img {
@@ -336,10 +335,10 @@
 
     & .page-app-text {
       margin-top: 16px;
-      font-stretch: 85%;
 
         @media (max-width: 768px) {
           font-size: 16px;
+          letter-spacing: -1.1px;
         }
 
       & .mg-btm-24-m { 
