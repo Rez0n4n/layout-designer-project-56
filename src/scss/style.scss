@@ -331,14 +331,18 @@
 
     @media (max-width: 768px) {
       margin-right: 0;
-      
     }
 
     & .page-app-text {
       margin-top: 1em;
       margin-bottom: 1em;
+
+        @media (max-width: 768px) {
+          font-size: 15px;
+        }
+        
       & .mg-btm-24-m { 
-        margin-bottom: 1rem;
+        margin-bottom: 1em;
       }
     }
 

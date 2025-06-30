@@ -480,8 +480,13 @@ main {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+@media (max-width: 768px) {
+  .page-app .page-app-block .page-app-content .page-app-text {
+    font-size: 15px;
+  }
+}
 .page-app .page-app-block .page-app-content .page-app-text .mg-btm-24-m {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 .page-app .page-app-block .page-app-content .btn-app {
   display: inline-block;
