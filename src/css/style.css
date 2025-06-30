@@ -456,7 +456,7 @@ main {
   margin-bottom: 48px;
 }
 .page-app img {
-  margin-right: 80px;
+  margin-right: 123px;
 }
 @media (max-width: 768px) {
   .page-app img {
@@ -472,7 +472,7 @@ main {
   }
 }
 .page-app .page-app-block .page-app-content {
-  margin-right: 144px;
+  margin-right: 143px;
 }
 @media (max-width: 768px) {
   .page-app .page-app-block .page-app-content {
