@@ -344,7 +344,6 @@ main {
 .page-news .news-block {
   display: flex;
   flex-direction: column;
-  padding-bottom: 28px;
 }
 @media (max-width: 768px) {
   .page-news .news-block {
@@ -455,6 +454,14 @@ main {
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 48px;
+}
+.page-app img {
+  margin-right: 243px;
+}
+@media (max-width: 768px) {
+  .page-app img {
+    margin-right: 0;
+  }
 }
 .page-app .page-app-block {
   display: flex;

@@ -186,7 +186,6 @@
   & .news-block{
     display: flex;
     flex-direction: column;
-    padding-bottom: 28px;
 
 
     @media (max-width: 768px) {
@@ -311,6 +310,14 @@
     margin-bottom: 48px;
   }
 
+  & img {
+    margin-right: 200px;
+
+    @media (max-width: 768px) {
+      margin-right: 0;
+    }
+  }
+
   & .page-app-block{
     display: flex;
 
@@ -324,6 +331,7 @@
     @media (max-width: 768px) {
       margin-right: 0;
     }
+
     & .page-app-text {
       margin-top: 1em;
       margin-bottom: 1em;
@@ -338,6 +346,7 @@
       background-color: #95390C;
       color: #FFFFFF;
     }
+
   }
   }
 }
