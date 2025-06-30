@@ -451,7 +451,7 @@ main {
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 48px;
-  font-stretch: 95%;
+  font-stretch: 90%;
 }
 .page-app img {
   margin-right: 123px;
@@ -479,7 +479,7 @@ main {
 }
 .page-app .page-app-block .page-app-content .page-app-text {
   margin-top: 16px;
-  font-stretch: 95%;
+  font-stretch: 90%;
 }
 @media (max-width: 768px) {
   .page-app .page-app-block .page-app-content .page-app-text {
