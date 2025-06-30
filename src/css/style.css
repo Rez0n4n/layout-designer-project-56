@@ -443,12 +443,9 @@ main {
   margin-bottom: 0px;
 }
 
-.pd-btm {
-  padding-bottom: 100px;
-}
-
 .page-app {
   padding-top: 100px;
+  margin-bottom: 100px;
 }
 .page-app h2 {
   text-align: center;
@@ -485,7 +482,7 @@ main {
 }
 @media (max-width: 768px) {
   .page-app .page-app-block .page-app-content .page-app-text .mg-btm-24-m {
-    margin-bottom: 1rem;
+    margin-bottom: 24px;
   }
 }
 .page-app .page-app-block .page-app-content .btn-app {
