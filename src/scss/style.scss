@@ -309,6 +309,7 @@
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 48px;
+    font-stretch: 95%;
   }
 
   & img {
@@ -335,7 +336,7 @@
 
     & .page-app-text {
       margin-top: 16px;
-        font-stretch: 75%;
+      font-stretch: 95%;
 
         @media (max-width: 768px) {
           font-size: 16px;
