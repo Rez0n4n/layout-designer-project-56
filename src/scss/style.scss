@@ -335,7 +335,7 @@
 
     & .page-app-text {
       margin-top: 16px;
-      letter-spacing: -0.5px;
+        font-stretch: 75%;
 
         @media (max-width: 768px) {
           font-size: 16px;

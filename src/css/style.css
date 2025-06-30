@@ -12,7 +12,7 @@
   box-sizing: border-box;
   line-height: 1.5;
   color: #cacaca;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -478,7 +478,7 @@ main {
 }
 .page-app .page-app-block .page-app-content .page-app-text {
   margin-top: 16px;
-  letter-spacing: -0.5px;
+  font-stretch: 75%;
 }
 @media (max-width: 768px) {
   .page-app .page-app-block .page-app-content .page-app-text {
