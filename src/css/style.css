@@ -466,6 +466,7 @@ main {
 @media (max-width: 768px) {
   .page-app .page-app-block {
     flex-direction: column-reverse;
+    flex-wrap: wrap;
   }
 }
 .page-app .page-app-block .page-app-content {
@@ -482,8 +483,7 @@ main {
 }
 @media (max-width: 768px) {
   .page-app .page-app-block .page-app-content .page-app-text {
-    font-size: 15.6px;
-    margin-top: 10px;
+    font-size: 16px;
   }
 }
 .page-app .page-app-block .page-app-content .page-app-text .mg-btm-24-m {

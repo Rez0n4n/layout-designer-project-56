@@ -324,6 +324,7 @@
 
     @media (max-width: 768px) {
       flex-direction: column-reverse;
+      flex-wrap: wrap;
     }
 
   & .page-app-content {
@@ -339,8 +340,7 @@
 
 
         @media (max-width: 768px) {
-          font-size: 15.6px;
-          margin-top: 10px;
+          font-size: 16px;
         }
 
       & .mg-btm-24-m { 
