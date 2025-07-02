@@ -297,13 +297,11 @@
   }
 }
 
-//.pd-btm {
-  //margin-bottom: 100px;
-//}
 
 .page-app {
   padding-top: 100px;
   margin-bottom: 100px;
+  flex-direction: column;
 
   & h2 {
     text-align: center;
@@ -315,7 +313,8 @@
     margin-right: 123px;
 
     @media (max-width: 768px) {
-      margin: 0 20px;
+      padding-bottom: 16px;
+      margin: 0;
     }
   }
 
@@ -324,7 +323,6 @@
 
     @media (max-width: 768px) {
       flex-direction: column-reverse;
-      flex-wrap: wrap;
     }
 
   & .page-app-content {
@@ -335,20 +333,19 @@
     }
 
     & .page-app-text {
-      margin-top: 16px;
       margin-bottom: 16px;
 
 
         @media (max-width: 768px) {
-          font-size: 15.6px;
         }
 
-      & .mg-btm-24-m { 
+      & .mg-btm-16 { 
         margin-bottom: 16px;
       }
     }
 
     & .btn-app {
+      border: 0;
       display: inline-block;
       text-decoration: none;
       padding: 16px 40px;
