@@ -50,11 +50,6 @@ h2 {
     line-height: 27px;
   }
 }
-section {
-  display: flex;
-  justify-content: center;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -499,7 +494,7 @@ main {
 }
 @media (max-width: 768px) {
   .page-app .page-app-block .page-app-content .page-app-text {
-    font-size: 15.6px;
+    font-size: 16px;
   }
 }
 .page-app .page-app-block .page-app-content .page-app-text .mg-btm-16 {
