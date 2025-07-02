@@ -482,7 +482,7 @@ main {
 .page-app .page-app-col-grd .page-app-col-grd-item .app-text-row {
   width: 100%;
   display: block;
-  padding: 16px 0;
+  padding-bottom: 16px;
 }
 .page-app .page-app-col-grd .page-app-col-grd-item .pd-btm-16 {
   padding-bottom: 16px;
