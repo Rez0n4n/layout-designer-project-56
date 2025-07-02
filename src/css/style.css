@@ -403,13 +403,10 @@ main {
   margin-bottom: 1em;
 }
 @media (max-width: 768px) {
-  .page-news .news-block .news-item .news-item-info .news-body p {
-    margin-bottom: 1.5em;
-  }
-  .page-news .news-block .news-item .news-item-info .news-body p .mg-24 {
+  .page-news .news-block .news-item .news-item-info .news-body .mg-24 {
     margin-bottom: 24px;
   }
-  .page-news .news-block .news-item .news-item-info .news-body p .mg-16 {
+  .page-news .news-block .news-item .news-item-info .news-body .mg-16 {
     margin-bottom: 16px;
   }
 }
