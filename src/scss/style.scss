@@ -241,7 +241,7 @@
             }   
           }
           & p {
-          margin-bottom: 24px;
+          margin-bottom: 1em;
           }
         }
       }
@@ -284,9 +284,11 @@
           border: 1px solid #FFFFFF;
           border-radius: 5px;
           font-size: 12px;
+          margin-bottom: 28px;
 
           @media (max-width: 768px) {
           font-size: 12.8px;
+          margin-bottom: 0;
           }  
         }
       }

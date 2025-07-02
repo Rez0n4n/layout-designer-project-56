@@ -395,7 +395,7 @@ main {
   }
 }
 .page-news .news-block .news-item .news-item-info .news-body p {
-  margin-bottom: 24px;
+  margin-bottom: 1em;
 }
 .page-news .news-block .news-item .news-footer {
   display: flex;
@@ -433,10 +433,12 @@ main {
   border: 1px solid #FFFFFF;
   border-radius: 5px;
   font-size: 12px;
+  margin-bottom: 28px;
 }
 @media (max-width: 768px) {
   .page-news .news-block .news-item .news-footer .news-btn {
     font-size: 12.8px;
+    margin-bottom: 0;
   }
 }
 .page-news .news-block .news-item-last {
