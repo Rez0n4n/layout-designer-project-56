@@ -458,7 +458,7 @@ main {
 }
 @media (max-width: 768px) {
   .page-app img {
-    padding-bottom: 16px;
+    padding: 0 20px;
     margin: 0;
   }
 }
@@ -480,6 +480,7 @@ main {
 }
 .page-app .page-app-block .page-app-content .page-app-text {
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 .page-app .page-app-block .page-app-content .page-app-text .mg-btm-16 {
   margin-bottom: 16px;
