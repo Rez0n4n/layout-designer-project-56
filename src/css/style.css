@@ -494,8 +494,13 @@ main {
   }
 }
 .page-app .page-app-block .page-app-content .page-app-text {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
   margin-top: 16px;
+}
+@media (max-width: 768px) {
+  .page-app .page-app-block .page-app-content .page-app-text {
+    font-size: 15.7px;
+  }
 }
 .page-app .page-app-block .page-app-content .page-app-text .mg-btm-16 {
   margin-bottom: 16px;
