@@ -488,6 +488,12 @@ main {
 @media (max-width: 768px) {
   .page-app .page-app-col-grd .page-app-col-grd-item .app-text-row {
     padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .page-app .page-app-col-grd .page-app-col-grd-item .app-text-row .text-part {
+    font-size: 15.81px;
   }
 }
 .page-app .page-app-col-grd .page-app-col-grd-item .pd-btm-16 {
@@ -496,7 +502,6 @@ main {
 @media (max-width: 768px) {
   .page-app .page-app-col-grd img {
     padding: 0 20px;
-    width: 100%;
   }
 }
 .page-app .page-app-col-grd .btn-app {
