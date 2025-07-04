@@ -484,6 +484,7 @@ main {
   display: block;
   padding-bottom: 16px;
   padding-top: 16px;
+  letter-spacing: -0.2px;
 }
 @media (max-width: 768px) {
   .page-app .page-app-col-grd .page-app-col-grd-item .app-text-row {
@@ -491,9 +492,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 16px;
-  }
-  .page-app .page-app-col-grd .page-app-col-grd-item .app-text-row .text-part {
-    font-size: 15.81px;
   }
 }
 .page-app .page-app-col-grd .page-app-col-grd-item .pd-btm-16 {
