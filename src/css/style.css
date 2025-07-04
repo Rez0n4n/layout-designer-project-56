@@ -762,11 +762,6 @@ main {
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
-@media (max-width: 768px) {
-  .footer-grid h2 {
-    margin-top: 30px;
-  }
-}
 .footer-grid a {
   font-size: 16px;
   line-height: 24px;
