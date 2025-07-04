@@ -745,7 +745,7 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 40px;
-  padding-top: 62px;
+  padding-top: 3rem;
   margin-bottom: 75px;
 }
 @media (max-width: 768px) {
