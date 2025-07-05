@@ -635,13 +635,15 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 25px;
-  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+  margin-right: 50px;
 }
 @media (max-width: 768px) {
   .page-popular-track .popular-track-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: none;
+    margin-right: 0;
   }
 }
 .page-popular-track .popular-track-grid img {
@@ -650,9 +652,9 @@ main {
 }
 .page-popular-track .popular-track-grid h3 {
   font-size: 12.8px;
-  line-height: 19.2px;
   font-weight: 700;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 .page-popular-track .popular-track-grid .popular-track-item {
   display: flex;
@@ -660,10 +662,13 @@ main {
 }
 .page-popular-track .popular-track-grid .popular-track-item p {
   color: #E0E0E0;
+  font-size: 12.8px;
+  font-weight: 400;
 }
 .page-popular-track .popular-track-grid .popular-track-item .popular-track-time {
   display: flex;
   color: #E0E0E0;
+  font-size: 12.8px;
 }
 .page-popular-track .popular-track-grid .popular-track-item .popular-track-info {
   width: 100%;
