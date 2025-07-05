@@ -695,7 +695,7 @@ main {
 .page-discography .discography-grid img {
   width: 250px;
   height: 250px;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
 }
 @media (max-width: 768px) {
   .page-discography .discography-grid img {
