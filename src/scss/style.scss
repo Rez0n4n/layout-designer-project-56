@@ -354,7 +354,7 @@
       }
 
       & .pd-btm-16{
-        
+
         @media (min-width: 769px) {
         padding-bottom: 16px;
         }
@@ -444,8 +444,14 @@
 }
 
 .page-artist-description {
-  margin-top: 200px;
-  margin-bottom: 200px;
+    padding-left: 120px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    @media (max-width: 768px) {
+      padding-left: 20px;
+    }
+
 
   & .banner-artist-text {
 

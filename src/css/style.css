@@ -157,6 +157,7 @@ main {
 }
 
 .artist-bg {
+  width: 100%;
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
@@ -574,8 +575,14 @@ main {
 }
 
 .page-artist-description {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  padding-left: 120px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+@media (max-width: 768px) {
+  .page-artist-description {
+    padding-left: 20px;
+  }
 }
 .page-artist-description .banner-artist-text h1 {
   color: #FFFFFF;
@@ -801,6 +808,8 @@ footer {
 
 .footer-1 {
   padding: 0 100px;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .footer-1 {
