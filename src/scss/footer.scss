@@ -9,7 +9,7 @@
   margin-bottom: 72px;
   margin-top: 15px;
 
-  @media (max-width: 768px) {
+  @media (width <= 768px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 30px;
@@ -52,7 +52,7 @@ footer {
   padding-bottom: 2rem;
   padding-top: 3rem;
 
-  @media (max-width: 768px) {
+  @media (width <= 768px) {
     align-items: flex-start;
   }
 }
@@ -62,7 +62,7 @@ footer {
   display: flex;
   justify-content: center;
 
-  @media (max-width: 768px) {
+  @media (width <= 768px) {
     padding: 0;
   }
 }
@@ -74,7 +74,7 @@ footer {
   justify-content: center;
   padding: 0 100px;
 
-  @media (max-width: 768px) {
+  @media (width <= 768px) {
     padding: 0;
   }
 
@@ -83,10 +83,10 @@ footer {
     margin-bottom: 15px;
     display: flex;
 
-    @media (max-width: 768px) {
+    @media (width <= 768px) {
       display: flex;
       flex-direction: column;
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
 
     & a {
@@ -94,7 +94,7 @@ footer {
       margin-right: 1em;
       text-decoration: none;
 
-      @media (max-width: 768px) {
+      @media (width <= 768px) {
         margin-right: 0;
         margin-bottom: 1em;
       }
