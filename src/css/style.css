@@ -312,7 +312,6 @@ main {
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #fff;
-  border-radius: 5px;
   font-size: 16px;
   margin-bottom: 64px;
 }
@@ -450,7 +449,7 @@ main {
   }
 }
 .page-news .news-block .news-item-last {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .page-app {
@@ -494,7 +493,7 @@ main {
     gap: 16px;
   }
 }
-@media (min-width: 769px) {
+@media (width >= 769px) {
   .page-app .page-app-col-grd .page-app-col-grd-item .pd-btm-16 {
     padding-bottom: 16px;
   }
@@ -602,7 +601,7 @@ main {
   }
 }
 .page-artist-description .banner-art-btn-block .btn-purple {
-  background-color: Purple;
+  background-color: purple;
 }
 .page-artist-description .banner-art-btn-block .btn-brown {
   background-color: #95390c;
@@ -634,8 +633,7 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 50px;
-  grid-row-gap: 25px;
+  grid-gap: 25px 50px;
   margin-right: 50px;
 }
 @media (width <= 768px) {
@@ -729,8 +727,7 @@ main {
 .page-similar .similar-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 50px;
-  grid-row-gap: 25px;
+  grid-gap: 25px 50px;
   margin-right: 50px;
 }
 @media (width <= 768px) {
