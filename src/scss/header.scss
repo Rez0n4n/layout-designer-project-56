@@ -1,9 +1,9 @@
 .grid-header-6 {
-    display: grid;
-    grid-template-areas: "logo header header header header search";
-    justify-content: normal;
+  display: grid;
+  grid-template-areas: "logo header header header header search";
+  justify-content: normal;
 
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
   }
@@ -13,10 +13,10 @@
   position: absolute;
   background-color: transparent;
   transform: translateY(24px);
-  
-    @media (max-width: 768px) {
-        transform: translateY(25px);
-    }
+
+  @media (max-width: 768px) {
+    transform: translateY(25px);
+  }
 }
 
 .main-menu {
@@ -41,16 +41,16 @@
 
 .logo {
   display: flex;
-  grid-area: logo; 
+  grid-area: logo;
   align-items: center;
   font-size: 11px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 
   & img {
-      margin-right: 16px;
-      max-width: 24px;
-      max-height: 24px;
+    margin-right: 16px;
+    max-width: 24px;
+    max-height: 24px;
   }
   @media (max-width: 768px) {
     margin-bottom: 1rem;
@@ -65,7 +65,7 @@
     width: 100%;
     border-radius: 50px;
     border: 0px;
-    background-color: #3C3B3D;
+    background-color: #3c3b3d;
     padding-left: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -74,10 +74,10 @@
 }
 
 .main-bg {
-    width: 100%;
-    background-image: url("../images/banner.png");
-    background-position: center;
-    background-size: cover;
+  width: 100%;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .artist-bg {
@@ -88,6 +88,6 @@
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }

@@ -1,17 +1,17 @@
 // Все основные настройки проекта
-@use 'variables';
+@use "variables";
 
 //Миксины
 //@use 'mixins';
 
 //Базовые стили (Которые не привязаны к конкретной секции)
-@use 'general';
+@use "general";
 
 //Стили шапки
-@use 'header';
+@use "header";
 
 //Стили классов
-@use 'style';
+@use "style";
 
 //Стили футера
-@use 'footer';
+@use "footer";
