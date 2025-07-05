@@ -354,7 +354,10 @@
       }
 
       & .pd-btm-16{
+        
+        @media (min-width: 769px) {
         padding-bottom: 16px;
+        }
       }
     }
 
