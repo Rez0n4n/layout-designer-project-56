@@ -445,11 +445,12 @@
 
 .page-artist-description {
     padding-left: 120px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 223px;
 
     @media (max-width: 768px) {
       padding-left: 20px;
+      padding-top: 225px;
     }
 
 
@@ -462,7 +463,7 @@
 
     & p {
       color: #FFFFFF;
-      margin-bottom: 2em;
+      margin-bottom: 3em;
     }
   }
   & .banner-art-btn-block {
