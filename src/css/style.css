@@ -514,64 +514,6 @@ main {
   color: #fff;
 }
 
-.page-app-old {
-  padding-top: 100px;
-  margin-bottom: 100px;
-  flex-direction: column;
-}
-.page-app-old h2 {
-  text-align: center;
-  color: #fff;
-  margin-bottom: 48px;
-}
-.page-app-old img {
-  margin-right: 123px;
-}
-@media (width <= 768px) {
-  .page-app-old img {
-    padding: 0 20px;
-    margin: 0;
-  }
-}
-.page-app-old .page-app-block {
-  display: flex;
-}
-@media (width <= 768px) {
-  .page-app-old .page-app-block {
-    flex-direction: column-reverse;
-  }
-}
-.page-app-old .page-app-block .page-app-content {
-  margin-right: 143px;
-}
-@media (width <= 768px) {
-  .page-app-old .page-app-block .page-app-content {
-    margin-right: 0;
-  }
-}
-.page-app-old .page-app-block .page-app-content .page-app-text {
-  margin-bottom: 15px;
-  margin-top: 16px;
-}
-@media (width <= 768px) {
-  .page-app-old .page-app-block .page-app-content .page-app-text {
-    font-size: 15.5px;
-  }
-}
-.page-app-old .page-app-block .page-app-content .page-app-text .mg-btm-16 {
-  margin-bottom: 16px;
-}
-.page-app-old .page-app-block .page-app-content .btn-app {
-  border: 0;
-  display: inline-block;
-  text-decoration: none;
-  padding: 16px 40px;
-  border-radius: 32px;
-  font-size: 12.8px;
-  background-color: #95390c;
-  color: #fff;
-}
-
 .page-artist-description {
   padding-left: 120px;
   padding-top: 250px;
