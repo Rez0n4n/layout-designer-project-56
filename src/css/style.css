@@ -65,7 +65,7 @@ main {
   width: 100%;
   padding: 0 20px;
 }
-@media (min-width: 1240px) {
+@media (width >= 1240px) {
   .container {
     width: 1240px;
   }
@@ -141,7 +141,7 @@ main {
 .search input {
   width: 100%;
   border-radius: 50px;
-  border: 0px;
+  border: 0;
   background-color: #3c3b3d;
   padding-left: 10px;
   padding-bottom: 5px;
@@ -179,6 +179,15 @@ main {
   flex-direction: column;
   align-items: center;
 }
+.page-description h2 {
+  color: #fff;
+  margin-bottom: 31px;
+}
+@media (width <= 768px) {
+  .page-description h2 {
+    margin-bottom: 16px;
+  }
+}
 .page-description .banner-text {
   text-align: center;
 }
@@ -190,15 +199,6 @@ main {
 .page-description .banner-text p {
   color: #fff;
   margin-bottom: 17px;
-}
-.page-description .banner-text h2 {
-  color: #fff;
-  margin-bottom: 31px;
-}
-@media (width <= 768px) {
-  .page-description .banner-text h2 {
-    margin-bottom: 16px;
-  }
 }
 .page-description .banner-text h1 {
   color: #fff;
@@ -218,7 +218,6 @@ main {
   margin-bottom: 1.5rem;
   border: 2px solid #cacaca;
   border-radius: 3px;
-  margin-bottom: 24px;
   width: 100%;
 }
 .page-description .banner-form input::placeholder {
@@ -279,7 +278,7 @@ main {
   color: #fff;
   line-height: 1em;
 }
-.page-pricing .price-grid .price-item h3 {
+.page-pricing .price-grid .price-item-h3 {
   font-size: 24px;
   font-weight: 400;
   margin-top: 1em;
@@ -288,7 +287,7 @@ main {
   text-transform: uppercase;
 }
 @media (width <= 768px) {
-  .page-pricing .price-grid .price-item h3 {
+  .page-pricing .price-grid .price-item-h3 {
     font-size: 16px;
   }
 }
@@ -395,8 +394,8 @@ main {
     font-size: 16px;
   }
 }
-.page-news .news-block .news-item .news-item-info .news-body p {
-  margin-bottom: 1em;
+.page-news .news-block .news-item .news-item-info .news-body-p {
+  padding-bottom: 1em;
 }
 @media (width <= 768px) {
   .page-news .news-block .news-item .news-item-info .news-body .mg-24 {
@@ -422,7 +421,7 @@ main {
     font-size: 12.8px;
   }
 }
-.page-news .news-block .news-item .news-footer .news-author img {
+.page-news .news-block .news-item .news-footer .news-author-img {
   margin-right: 1em;
   width: 19px;
   height: 19px;
@@ -617,7 +616,7 @@ main {
   border: 0;
   border-radius: 5px;
 }
-.page-artist-description .banner-art-btn-block .banner-art-btn img {
+.page-artist-description .banner-art-btn-block .banner-art-btn-img {
   filter: invert(1);
   margin-right: 16px;
   width: 20px;
