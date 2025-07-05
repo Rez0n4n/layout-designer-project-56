@@ -395,7 +395,7 @@ main {
   }
 }
 .page-news .news-block .news-item .news-item-info .news-body-p {
-  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 @media (width <= 768px) {
   .page-news .news-block .news-item .news-item-info .news-body .mg-24 {
