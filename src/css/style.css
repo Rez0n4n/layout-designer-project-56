@@ -647,7 +647,7 @@ main {
   width: 55px;
   height: 55px;
 }
-.page-popular-track .popular-track-grid h3 {
+.page-popular-track .popular-track-grid-h3 {
   font-size: 12.8px;
   font-weight: 700;
   color: #fff;
@@ -700,7 +700,7 @@ main {
     height: 137px;
   }
 }
-.page-discography .discography-grid h3 {
+.page-discography .discography-grid-h3 {
   color: #fff;
   font-size: 18px;
   line-height: 27px;
@@ -712,7 +712,7 @@ main {
     max-width: 137px;
   }
 }
-.page-discography .discography-grid p {
+.page-discography .discography-grid-p {
   color: #e0e0e0;
 }
 
@@ -758,14 +758,14 @@ main {
     height: 137px;
   }
 }
-.page-similar .similar-grid h3 {
+.page-similar .similar-grid-h3 {
   color: #fff;
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
   text-transform: capitalize;
 }
-.page-similar .similar-grid p {
+.page-similar .similar-grid-p {
   color: #e0e0e0;
 }
 

@@ -529,7 +529,7 @@
       height: 55px;
     }
 
-    & h3 {
+    &-h3 {
       font-size: 12.8px;
       font-weight: 700;
       color: #fff;
@@ -588,7 +588,7 @@
       }
     }
 
-    & h3 {
+    &-h3 {
       color: #fff;
       font-size: 18px;
       line-height: 27px;
@@ -602,7 +602,7 @@
       }
     }
 
-    & p {
+    &-p {
       color: #e0e0e0;
     }
   }
@@ -650,7 +650,7 @@
       }
     }
 
-    & h3 {
+    &-h3 {
       color: #fff;
       font-size: 18px;
       line-height: 27px;
@@ -658,7 +658,7 @@
       text-transform: capitalize;
     }
 
-    & p {
+    &-p {
       color: #e0e0e0;
     }
   }
